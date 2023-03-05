@@ -1,11 +1,11 @@
-import Main from "./components/main/Main";
+import MainSection from "./components/main/MainSection";
 import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Main />
+      <MainSection />
     </div>
   );
 }

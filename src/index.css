@@ -4,10 +4,17 @@
 body {
   margin: 0px;
   padding: 0px;
-  /* background: red; */
 }
 
 .App {
   display: flex;
   font-family: "Nunito", "sans-serif";
 }
+
+.main {
+  width: 100vw;
+  padding: 2rem;
+}
+/* .pageCard {
+  overflow-y: scroll;
+} */

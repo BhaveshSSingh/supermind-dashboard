@@ -1,0 +1,36 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+}
+
+.details__time {
+  display: flex;
+}
+
+.boxArrowUp__icons {
+  padding: 1rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+}
+.boxArrowDown__icons {
+  padding: 1rem;
+  background-color: purple;
+  border-radius: 1rem;
+}
+
+.income__text {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.income__text__details {
+  /* height: 50px; */
+}
+
+/* table */
+.table__row {
+  display: flex;
+  justify-content: space-between;
+}

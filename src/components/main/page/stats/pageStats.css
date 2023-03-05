@@ -1,0 +1,32 @@
+.pageStats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageHeader {
+  display: flex;
+}
+
+.pageHeader__icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.pageHeader__icons_notification {
+  /* border: 1px solid black; */
+  /* color: red; */
+}
+
+.pageHeader__icons__profile {
+  /* border: 1px solid black; */
+}
+
+.pageStats__balance {
+  background-color: rgb(220, 255, 255);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.pageStats__data {
+  display: flex;
+}

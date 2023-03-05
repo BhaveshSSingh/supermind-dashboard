@@ -1,0 +1,54 @@
+/* .pageCard {
+  background-color: red;
+} */
+
+.card__container {
+  display: flex;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+}
+
+.card {
+  margin-right: 3rem;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(206, 255, 255);
+  border-radius: 1rem;
+  padding: 20px;
+  padding-top: 10px;
+
+  padding-bottom: 40px;
+}
+
+.card__data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__data__brand {
+  font-weight: 600;
+}
+
+.card__data__percent {
+  font-size: small;
+  background-color: rgb(180, 180, 180);
+  padding: 5px;
+  color: blue;
+  border-radius: 1rem;
+}
+
+.card__logo {
+  margin: auto;
+  align-items: center;
+  /* margin-left: auto; */
+  margin-left: 4rem;
+}
+
+.card__logo__icon {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
