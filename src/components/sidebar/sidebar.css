@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: rgb(76, 76, 255);
+  padding: 3rem;
+  border-radius: 2rem;
+  height: 100vh;
+}
+
+.sidebar_header {
+  display: flex;
+  padding-top: 0;
+}
+
+.sidebar_header_logo {
+  color: #37d5d6;
+  transform: rotate(50deg);
+}
+
+.sidebar_header_text {
+  color: white;
+}
+
+.border {
+  color: gray;
+  border: 1px solid;
+  margin-bottom: 2rem;
+}
+
+.sidebar__image {
+  width: 100px;
+  height: 300px;
+}
