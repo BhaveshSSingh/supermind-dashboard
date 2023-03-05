@@ -7,18 +7,18 @@ const Options = () => {
       <h5>Manage</h5>
 
       {manageOptions.map((option) => (
-        <h3>
+        <h3 className="options">
           {option.logo}
-          {option.name}
+          <div className="options__name">{option.name}</div>
         </h3>
       ))}
 
       <h5>Support</h5>
 
       {supportOptions.map((option) => (
-        <h3>
+        <h3 className="options">
           {option.logo}
-          {option.name}
+          <div className="options__name">{option.name}</div>
         </h3>
       ))}
     </div>

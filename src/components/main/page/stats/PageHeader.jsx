@@ -1,5 +1,4 @@
 import { VscBellDot } from "react-icons/vsc";
-import avatar from "../../../../assets/avatar.jpg";
 
 const PageHeader = () => {
   return (
@@ -11,8 +10,12 @@ const PageHeader = () => {
           <div className="pageHeader__icons_notification">
             <VscBellDot size={30} />
           </div>
-          <div className="pageHeader__icons__profile">
-            <img src={avatar} alt="profile" />
+          <div className="pageHeader__icons__img">
+            <img
+              src="https://api.dicebear.com/5.x/adventurer/svg?seed=Angel"
+              alt="profile"
+              className="pageHeader__icons__profile"
+            />
           </div>
         </div>
       </div>

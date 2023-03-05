@@ -11,13 +11,14 @@ const PageDetails = () => {
     <>
       {/* <div className="pageDetails"> */}
       <div className="details">
-        <h3>Transactions</h3>
-        <div className="details__time">
-          <h4>Today</h4>
-          <h4>This Week</h4>
-          <h4>This Month</h4>
+        <div>
+          <h3>Transactions</h3>
+          <div className="details__time">
+            <h4>Today</h4>
+            <h4>This Week</h4>
+            <h4>This Month</h4>
+          </div>
         </div>
-        {/* <PageIncome /> */}
       </div>
       <div>
         {/* table */}

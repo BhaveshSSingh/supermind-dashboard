@@ -1,6 +1,7 @@
 .sidebar {
   background-color: rgb(76, 76, 255);
-  padding: 3rem;
+  padding: 1rem;
+  padding-top: 1rem;
   border-radius: 2rem;
   height: 100vh;
 }
@@ -8,6 +9,7 @@
 .sidebar_header {
   display: flex;
   padding-top: 0;
+  padding: 0 2rem;
 }
 
 .sidebar_header_logo {
@@ -28,4 +30,14 @@
 .sidebar__image {
   width: 100px;
   height: 300px;
+}
+
+.options {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-right: 1rem;
+}
+.options__name {
+  padding-left: 1rem;
 }

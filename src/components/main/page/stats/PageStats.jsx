@@ -7,13 +7,17 @@ const PageStats = () => {
     <div className="pageStats">
       <div>
         <PageHeader />
-        <div>
+        <div className="pageStats__options">
           <h4>Daily balance overview</h4>
+          <div>
+            <span class="dot_aqua" />
+            <span>Spent</span>
+            <span class="dot_purple" />
 
-          <span>Spent</span>
-          <span>Referral</span>
-          <span>14 days</span>
-          <IoIosArrowDropdown />
+            <span>Referral</span>
+            <span>14 days</span>
+            <IoIosArrowDropdown />
+          </div>
         </div>
         {/*  */}
 
@@ -25,8 +29,13 @@ const PageStats = () => {
         <div>Piechart</div>
 
         <div className="pageStats__data">
-          <h6>Spent</h6>
-          <h6>Referral</h6>
+          <div>
+            <span class="dot_aqua" />
+            <span>Spent</span>
+            <span class="dot_purple" />
+
+            <span>Referral</span>
+          </div>
         </div>
       </div>
     </div>

@@ -18,3 +18,18 @@ body {
 /* .pageCard {
   overflow-y: scroll;
 } */
+
+.dot_aqua {
+  height: 10px;
+  width: 10px;
+  background-color: aqua;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_purple {
+  height: 10px;
+  width: 10px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+}
