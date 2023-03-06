@@ -29,7 +29,7 @@ const BarChart = () => {
         name: "Price",
         min: 0,
         max: 100,
-        interval: 20,
+        interval: 25,
         axisLabel: {
           formatter: "{value} USD",
         },
