@@ -4,15 +4,16 @@
 
 .card__container {
   display: flex;
-  /* overflow-y: scroll;
-  overflow-x: hidden; */
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .card {
   margin-right: 3rem;
-  width: 200px;
+  min-width: 200px;
   height: 150px;
-  background-color: rgb(206, 255, 255);
+  background-color: var(--light-blue-accent);
   border-radius: 1rem;
   padding: 20px;
   padding-top: 10px;

@@ -4,7 +4,7 @@ import { manageOptions, supportOptions } from "../../config";
 const Options = () => {
   return (
     <div>
-      <h5>Manage</h5>
+      <h5 className="sidebar__option">MANAGE</h5>
 
       {manageOptions.map((option) => (
         <h3 className="options">
@@ -13,7 +13,7 @@ const Options = () => {
         </h3>
       ))}
 
-      <h5>Support</h5>
+      <h5 className="sidebar__option">SUPPORT</h5>
 
       {supportOptions.map((option) => (
         <h3 className="options">

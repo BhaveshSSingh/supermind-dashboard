@@ -43,7 +43,7 @@ const BarChart = () => {
       //     color: "#91cc75",
       //     shadowColor: "#91cc75",
       //     borderType: "dashed",
-      //     barBorderRadius: "30px",
+      //     barBorderRadius: 30,
       //     opacity: 0.5,
       //   },
       // },

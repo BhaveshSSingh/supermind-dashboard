@@ -6,42 +6,14 @@ const PieChart = () => {
     color: [
       new echarts.graphic.LinearGradient(0, 0, 0, 1, [
         {
-          offset: 0,
-          color: "#1158E2",
-        },
-        {
           offset: 1,
-          color: "#42B5F2",
+          color: "#09c0d6",
         },
       ]),
       new echarts.graphic.LinearGradient(0, 0, 0, 1, [
         {
-          offset: 0,
-          color: "#BC1FD7",
-        },
-        {
           offset: 1,
-          color: "#7F1DD1",
-        },
-      ]),
-      new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-        {
-          offset: 0,
-          color: "#E8A618",
-        },
-        {
-          offset: 1,
-          color: "#EB6B36",
-        },
-      ]),
-      new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-        {
-          offset: 0,
-          color: "#D131BE",
-        },
-        {
-          offset: 1,
-          color: "#BF1575",
+          color: "#4424a7",
         },
       ]),
     ],
@@ -49,15 +21,14 @@ const PieChart = () => {
       {
         name: "Item",
         type: "pie",
-        radius: ["60%", "80%"],
+        radius: ["80%", "100%"],
         avoidLabelOverlap: false,
         itemStyle: {
-          borderRadius: 50,
-          borderColor: "black",
-          borderWidth: 5,
+          borderRadius: 10,
+          borderWidth: 0,
         },
         label: {
-          show: false,
+          show: true,
           position: "center",
         },
         emphasis: {
@@ -70,17 +41,13 @@ const PieChart = () => {
         data: [
           { value: 1872, name: "Spent" },
           { value: 987, name: "Referral" },
-          { value: 484, name: "Rest" },
         ],
       },
     ],
   };
   return (
     <>
-      <ReactECharts
-        style={{ height: 140, marginTop: "1rem" }}
-        option={option}
-      />
+      <ReactECharts style={{ height: 240, width: 240 }} option={option} />
     </>
   );
 };

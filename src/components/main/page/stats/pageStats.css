@@ -3,6 +3,7 @@
   justify-content: space-between;
   /* width: 400px; */
   /* background-color: red; */
+  margin-top: -17px;
 }
 
 .pageStats__options {
@@ -16,6 +17,7 @@
   justify-content: space-between;
   /* background-color: green; */
   width: 55vw;
+  /* width: 100%; */
 }
 
 .pageHeader__icons {
@@ -38,14 +40,15 @@
   width: 45px;
   height: 45px;
   border-radius: 1rem;
-
+  background-color: var(--light-blue);
   border: 1px solid rgb(177, 177, 177);
 }
 
 .pageStats__balance {
-  background-color: rgb(220, 255, 255);
+  background-color: var(--light-blue-accent);
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 3rem;
+  margin-left: 1rem;
   width: 15vw;
 }
 

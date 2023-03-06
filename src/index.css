@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 :root,
 body {
   margin: 0px;
   padding: 0px;
+  --dark-blue: #4424a7;
+  --light-blue: #09c0d6;
+  --light-blue-accent: #f1f5fd;
+  background-color: rgb(237, 237, 237);
 }
 
 .App {
@@ -14,10 +17,8 @@ body {
 .main {
   width: 100vw;
   padding: 2rem;
+  overflow-x: hidden;
 }
-/* .pageCard {
-  overflow-y: scroll;
-} */
 
 .dot_aqua {
   height: 10px;
