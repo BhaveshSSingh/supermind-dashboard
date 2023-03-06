@@ -5,20 +5,22 @@ import masterCardLogo from "../../../../assets/Master-Card-logo.png";
 import webMoneyLogo from "../../../../assets/webmoney-logo.png";
 import qiwiLogo from "../../../../assets/qiwi-logo.png";
 import transferWiseLogo from "../../../../assets/wise-transferwise-logo.png";
-// import { useState } from "react";
+import { useState } from "react";
 
 const CardSlider = () => {
   let box = document.querySelector(".card__container");
 
+  const [state, setState] = useState(0);
+
   const btnPressPrev = () => {
+    setState(state + 1);
     let width = box.clientWidth;
     box.scrollLeft = box.scrollLeft - width;
-    console.log("width :", width);
   };
   const btnPressNext = () => {
+    setState(state + 1);
     let width = box.clientWidth;
     box.scrollLeft = box.scrollLeft + width;
-    console.log("width :", width);
   };
 
   return (
