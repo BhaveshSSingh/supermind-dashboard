@@ -1,6 +1,8 @@
 import { IoIosArrowDropdown } from "react-icons/io";
+import BarChart from "./BarChart";
 import PageHeader from "./PageHeader";
 import "./pageStats.css";
+import PieChart from "./PieChart";
 
 const PageStats = () => {
   return (
@@ -21,13 +23,14 @@ const PageStats = () => {
         </div>
         {/*  */}
 
-        <div>Graphs</div>
+        {/* <div> */}
+        <BarChart />
+        {/* </div> */}
       </div>
 
       <div className="pageStats__balance">
         <h4>Balance statistic</h4>
-        <div>Piechart</div>
-
+        <PieChart />
         <div className="pageStats__data">
           <div>
             <span class="dot_aqua" />
