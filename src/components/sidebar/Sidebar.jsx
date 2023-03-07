@@ -20,12 +20,7 @@ const Sidebar = () => {
 
       <Options />
 
-      <img
-        className="sidebar__image"
-        src={logo}
-        alt="help center image
-          "
-      />
+      <img className="sidebar__image" src={logo} alt="help center image" />
     </div>
   );
 };

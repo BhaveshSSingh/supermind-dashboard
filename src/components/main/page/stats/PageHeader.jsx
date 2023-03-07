@@ -19,7 +19,7 @@ const PageHeader = () => {
           </div>
         </div>
       </div>
-      <div className="border" />
+      <div className="border__gray" />
     </>
   );
 };

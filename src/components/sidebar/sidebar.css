@@ -1,9 +1,13 @@
 .sidebar {
   background-color: var(--dark-blue);
   /* padding: 1rem; */
-  padding: 0 1rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-radius: 2rem;
-  height: 120vh;
+  height: 120%;
+  width: 20vw;
 }
 
 .sidebar_header {

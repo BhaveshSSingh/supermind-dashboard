@@ -5,8 +5,7 @@ body {
   padding: 0px;
   --dark-blue: #4424a7;
   --light-blue: #09c0d6;
-  --light-blue-accent: #f1f5fd;
-  background-color: rgb(237, 237, 237);
+  --light-blue-accent: whitesmoke;
 }
 
 .App {

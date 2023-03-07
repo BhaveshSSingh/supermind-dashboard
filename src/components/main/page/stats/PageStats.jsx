@@ -10,7 +10,7 @@ const PageStats = () => {
       <div>
         <PageHeader />
         <div className="pageStats__options">
-          <h4>Daily balance overview</h4>
+          <h4 className="pageStats__options__text">Daily balance overview</h4>
           <div>
             <span class="dot_aqua" />
             <span>Spent</span>
@@ -24,7 +24,9 @@ const PageStats = () => {
         {/*  */}
 
         {/* <div> */}
-        <BarChart />
+        <div className="barChart__container">
+          <BarChart />
+        </div>
         {/* </div> */}
       </div>
 

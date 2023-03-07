@@ -1,10 +1,8 @@
 .details {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: rebeccapurple; */
+  padding-top: 30px;
 }
 
-.details__time {
+.flex {
   display: flex;
 }
 
@@ -19,18 +17,57 @@
   border-radius: 1rem;
 }
 
+.income__section {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-left: 50px;
+  width: 300px;
+}
+
 .income__text {
   display: flex;
   justify-self: center;
   align-items: center;
 }
+.income__amount {
+  margin-bottom: -10px;
+  font-size: large;
+}
+
+.income__statement {
+  color: gray;
+  font-size: small;
+}
 
 .income__text__details {
-  /* height: 50px; */
+  padding-left: 10px;
 }
 
 /* table */
-.table__row {
+
+.table__payment {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: medium;
+  color: rgb(85, 85, 85);
+}
+
+.table__status {
+  font-size: small;
+  font-weight: bolder;
+  color: gray;
+}
+
+.table__header {
+  color: gray;
+  font-size: larger;
+  opacity: 80%;
+}
+.table__icon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
 }
