@@ -36,12 +36,16 @@ const PageStats = () => {
         <h4>Balance statistic</h4>
         <PieChart />
         <div className="pageStats__data">
-          <div>
-            <span class="dot_aqua" />
-            <span>Spent</span>
-            <span class="dot_purple" />
+          <div className="pageStats__spent_ref">
+            <div>
+              <span class="dot_aqua" />
+              <span className="spent">Spent</span>
+            </div>
+            <div>
+              <span class="dot_purple" />
 
-            <span>Referral</span>
+              <span className="referral">Referral</span>
+            </div>
           </div>
         </div>
       </div>

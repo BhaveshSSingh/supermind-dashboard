@@ -63,13 +63,24 @@
 .pageStats__balance {
   background-color: var(--light-blue-accent);
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 1rem 3rem;
   margin-left: 1rem;
   width: 15vw;
 }
-
+.pageStats__balance h4 {
+  font-size: large;
+  font-weight: bold;
+}
 .pageStats__data {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.pageStats__spent_ref {
+  display: flex;
+  justify-content: space-between;
 }
 
 .border__gray {
