@@ -6,9 +6,7 @@ const MainSection = () => {
   return (
     <div className="main">
       <PageStats />
-      {/* <div className="pageCard"> */}
       <PageCards />
-      {/* </div> */}
       <PageDetails />
     </div>
   );

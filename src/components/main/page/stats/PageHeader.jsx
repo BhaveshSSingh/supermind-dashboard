@@ -7,9 +7,8 @@ const PageHeader = () => {
         <h2>Balance</h2>
 
         <div className="pageHeader__icons">
-          <div className="pageHeader__icons_notification">
-            <VscBellDot size={30} />
-          </div>
+          <VscBellDot size={30} />
+
           <div className="pageHeader__icons__img">
             <img
               src="https://api.dicebear.com/5.x/adventurer/svg?seed=Angel"

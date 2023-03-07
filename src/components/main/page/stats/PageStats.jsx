@@ -1,4 +1,4 @@
-import { IoIosArrowDropdown } from "react-icons/io";
+import { RiArrowDownSFill } from "react-icons/ri";
 import BarChart from "./BarChart";
 import PageHeader from "./PageHeader";
 import "./pageStats.css";
@@ -11,23 +11,25 @@ const PageStats = () => {
         <PageHeader />
         <div className="pageStats__options">
           <h4 className="pageStats__options__text">Daily balance overview</h4>
-          <div>
+          <div className="pageStats__overview">
             <span class="dot_aqua" />
             <span>Spent</span>
             <span class="dot_purple" />
-
             <span>Referral</span>
-            <span>14 days</span>
-            <IoIosArrowDropdown />
+
+            <div className="pageStats__overview__options">
+              <div>14 days</div>
+              <RiArrowDownSFill
+                className="pageStats__overview__options__icon"
+                size={17}
+              />
+            </div>
           </div>
         </div>
-        {/*  */}
 
-        {/* <div> */}
         <div className="barChart__container">
           <BarChart />
         </div>
-        {/* </div> */}
       </div>
 
       <div className="pageStats__balance">

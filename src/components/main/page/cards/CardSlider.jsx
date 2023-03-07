@@ -5,12 +5,17 @@ import masterCardLogo from "../../../../assets/Master-Card-logo.png";
 import webMoneyLogo from "../../../../assets/webmoney-logo.png";
 import qiwiLogo from "../../../../assets/qiwi-logo.png";
 import transferWiseLogo from "../../../../assets/wise-transferwise-logo.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { cardData } from "../../../../config";
 
 const CardSlider = () => {
   let box = document.querySelector(".card__container");
 
   const [state, setState] = useState(0);
+
+  useEffect(() => {
+    setState(state + 1);
+  }, []);
 
   const btnPressPrev = () => {
     setState(state + 1);
@@ -33,75 +38,21 @@ const CardSlider = () => {
       </button>
 
       <div className="card__container">
-        <div className="card">
-          <div className="card__data">
-            <p className="card__data__brand">PayPal</p>
-            <p className="card__data__percent">1-5%</p>
+        {cardData.map((data) => (
+          <div className="card">
+            <div className="card__data">
+              <p className="card__data__brand">{data.name}</p>
+              <p className="card__data__percent">{data.percent}</p>
+            </div>
+            <div className="card__logo">
+              <img
+                src={data.img}
+                alt="payment-logo"
+                className="card__logo__icon"
+              />
+            </div>
           </div>
-          <div className="card__logo">
-            <img
-              src={paypalLogo}
-              alt="payment-logo"
-              className="card__logo__icon"
-            />
-          </div>
-        </div>
-
-        {/*  */}
-        <div className="card">
-          <div className="card__data">
-            <p className="card__data__brand">Mastercard</p>
-            <p className="card__data__percent">1-5%</p>
-          </div>
-          <div className="card__logo">
-            <img
-              src={masterCardLogo}
-              alt="payment-logo"
-              className="card__logo__icon"
-            />
-          </div>
-        </div>
-        {/*  */}
-        <div className="card">
-          <div className="card__data">
-            <p className="card__data__brand">Webmoney</p>
-            <p className="card__data__percent">1-5%</p>
-          </div>
-          <div className="card__logo">
-            <img
-              src={webMoneyLogo}
-              alt="payment-logo"
-              className="card__logo__icon"
-            />
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card__data">
-            <p className="card__data__brand">Qiwi</p>
-            <p className="card__data__percent">1-5%</p>
-          </div>
-          <div className="card__logo">
-            <img
-              src={qiwiLogo}
-              alt="payment-logo"
-              className="card__logo__icon"
-            />
-          </div>
-        </div>
-        <div className="card">
-          <div className="card__data">
-            <p className="card__data__brand">Transferwise</p>
-            <p className="card__data__percent">1-5%</p>
-          </div>
-          <div className="card__logo">
-            <img
-              src={transferWiseLogo}
-              alt="payment-logo"
-              className="card__logo__icon"
-            />
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

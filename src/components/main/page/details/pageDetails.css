@@ -8,12 +8,12 @@
 
 .boxArrowUp__icons {
   padding: 1rem;
-  background-color: aquamarine;
+  background-color: var(--light-blue);
   border-radius: 1rem;
 }
 .boxArrowDown__icons {
   padding: 1rem;
-  background-color: purple;
+  background-color: var(--dark-blue);
   border-radius: 1rem;
 }
 
@@ -43,8 +43,6 @@
 .income__text__details {
   padding-left: 10px;
 }
-
-/* table */
 
 .table__payment {
   display: flex;

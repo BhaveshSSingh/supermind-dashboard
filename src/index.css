@@ -22,14 +22,16 @@ body {
 .dot_aqua {
   height: 10px;
   width: 10px;
-  background-color: aqua;
   border-radius: 50%;
   display: inline-block;
+  margin-right: 10px;
+  background-color: var(--light-blue);
 }
 .dot_purple {
+  margin: 0 10px;
+  background-color: var(--dark-blue);
   height: 10px;
   width: 10px;
-  background-color: purple;
   border-radius: 50%;
   display: inline-block;
 }

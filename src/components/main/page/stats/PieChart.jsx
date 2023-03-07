@@ -16,6 +16,12 @@ const PieChart = () => {
           color: "#4424a7",
         },
       ]),
+      new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+        {
+          offset: 1,
+          color: "rgb(170, 170, 170)",
+        },
+      ]),
     ],
     series: [
       {
@@ -41,6 +47,7 @@ const PieChart = () => {
         data: [
           { value: 1872, name: "Spent" },
           { value: 987, name: "Referral" },
+          { value: 300, name: "" },
         ],
       },
     ],

@@ -1,10 +1,9 @@
 .sidebar {
   background-color: var(--dark-blue);
-  /* padding: 1rem; */
-  padding-top: 0;
-  padding-bottom: 2rem;
+  padding-right: 1rem;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 0;
   border-radius: 2rem;
   height: 120%;
   width: 20vw;
@@ -17,11 +16,11 @@
 }
 
 .sidebar_header_logo {
-  /* color: #37d5d6; */
   transform: rotate(50deg);
 }
 
 .sidebar_header_text {
+  display: flex;
   color: #f9f0fc;
   font-weight: 700;
 }
@@ -41,7 +40,7 @@
   border-radius: 2rem;
 }
 
-.sidebar__option {
+.sidebar__option__title {
   color: #a596d7;
   font-weight: bold;
   font-size: x-small;
@@ -49,22 +48,27 @@
 
 .options {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
-  margin-right: 1rem;
+  padding-right: 1rem;
   cursor: pointer;
+
+  color: white;
+  font-weight: 200;
+  padding: 8px 0px;
+  padding-left: 8px;
+  width: 110%;
+  height: 100%;
+
+  position: relative;
 }
+
 .options:hover {
   background-color: white;
-  text-decoration-color: black;
-}
-.options__name:hover {
   color: black;
-  font-weight: 300;
+  width: 120%;
+  border-radius: 2rem;
 }
 
 .options__name {
   padding-left: 1rem;
-  color: white;
-  font-weight: 200;
 }
