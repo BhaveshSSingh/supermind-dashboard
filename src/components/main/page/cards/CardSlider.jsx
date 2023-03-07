@@ -1,10 +1,6 @@
 import "./slider.css";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
-import paypalLogo from "../../../../assets/paypal-logo.png";
-import masterCardLogo from "../../../../assets/Master-Card-logo.png";
-import webMoneyLogo from "../../../../assets/webmoney-logo.png";
-import qiwiLogo from "../../../../assets/qiwi-logo.png";
-import transferWiseLogo from "../../../../assets/wise-transferwise-logo.png";
+
 import { useEffect, useState } from "react";
 import { cardData } from "../../../../config";
 
