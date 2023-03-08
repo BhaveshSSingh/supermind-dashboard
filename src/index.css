@@ -17,6 +17,7 @@ body {
   width: 100vw;
   padding: 2rem;
   overflow-x: hidden;
+  margin-left: 15rem;
 }
 
 .dot_aqua {

@@ -1,10 +1,10 @@
 import MainSection from "./components/main/MainSection";
-import Sidebar from "./components/sidebar/Sidebar";
+import Menu from "./components/menu/Menu";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Menu />
       <MainSection />
     </div>
   );
