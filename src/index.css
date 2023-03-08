@@ -36,3 +36,12 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: var(--light-blue);
+}
